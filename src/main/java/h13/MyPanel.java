@@ -51,7 +51,7 @@ public class MyPanel extends javax.swing.JPanel {
     /**
      * The figures to display ()
      */
-    @SuppressWarnings("unused")
+    @SuppressWarnings("unused") // Kann entfernt werden, sobald die Methode verwendet wird
     private List<Figure> figuresToDisplay = new ArrayList<>(List.of(
             Figure.BLUE_STRING,
             Figure.YELLOW_RECTANGLE,
@@ -319,7 +319,7 @@ public class MyPanel extends javax.swing.JPanel {
      * @param alpha the desired Alpha
      * @return the generated Color
      */
-    @SuppressWarnings("unused")
+    @SuppressWarnings("unused") // Kann entfernt werden, sobald die Methode verwendet wird
     private Color colorWithAlpha(Color c, float alpha) {
         return colorWithAlpha(c, (int) (alpha * 255 + 0.5));
     }
@@ -331,7 +331,7 @@ public class MyPanel extends javax.swing.JPanel {
      * @param saturation the desired Saturation
      * @return the generated Color
      */
-    @SuppressWarnings("unused")
+    @SuppressWarnings("unused") // Kann entfernt werden, sobald die Methode verwendet wird
     private Color colorWithSaturation(Color c, float saturation) {
         // TODO: H1.2
         throw new UnsupportedOperationException("Method not Implemented.");
@@ -384,7 +384,7 @@ public class MyPanel extends javax.swing.JPanel {
      * @param scaleY        how much vertical screen space the shape will take
      *                      (1.0d -> full screen)
      */
-    @SuppressWarnings("unused")
+    @SuppressWarnings("unused") // Kann entfernt werden, sobald die Methode verwendet wird
     private void fillDrawCentered(Graphics2D g2d, Color interiorColor, Color borderColor, int borderWidth,
             RectangularShape s, double scaleX, double ScaleY) {
         centerShape(s, scaleX, ScaleY, borderWidth);
@@ -401,7 +401,7 @@ public class MyPanel extends javax.swing.JPanel {
      * @param f           the font used for drawing the string
      * @return The Shape of the outline
      */
-    @SuppressWarnings("unused")
+    @SuppressWarnings("unused") // Kann entfernt werden, sobald die Methode verwendet wird
     private Shape scaleTextToWidth(Graphics2D g2d, double width, float borderWidth, String text, Font f) {
         // TODO: H1.3
         throw new UnsupportedOperationException("Method not Implemented.");
@@ -418,7 +418,7 @@ public class MyPanel extends javax.swing.JPanel {
      * @param f             the font to use
      * @param width         the desired text width
      */
-    @SuppressWarnings("unused")
+    @SuppressWarnings("unused") // Kann entfernt werden, sobald die Methode verwendet wird
     private void drawColoredString(Graphics2D g2d, Color interiorColor, Color borderColor, float borderWidth,
             String text, Font f, double width) {
         // TODO: H1.3
@@ -430,7 +430,7 @@ public class MyPanel extends javax.swing.JPanel {
      *
      * @param g2d the specified graphics context
      */
-    @SuppressWarnings("unused")
+    @SuppressWarnings("unused") // Kann entfernt werden, sobald die Methode verwendet wird
     private void drawGrid(Graphics2D g2d) {
         // save g2d configuration
         var oldColor = g2d.getColor();
@@ -487,7 +487,7 @@ public class MyPanel extends javax.swing.JPanel {
         super.paint(g);
 
         // Convert to g2d
-        @SuppressWarnings("unused")
+        @SuppressWarnings("unused") // Kann entfernt werden, sobald die Methode verwendet wird
         Graphics2D g2d = (Graphics2D) g;
 
         // Optional: draw a grid that helps with positioning

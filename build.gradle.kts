@@ -26,11 +26,12 @@ repositories {
 
 dependencies {
     // JUnit only available in "test" source set (./src/test)
+    implementation("com.formdev:flatlaf:2.0")
     testImplementation("org.junit.jupiter:junit-jupiter:5.8.2")
 }
 
 application {
-    mainClass.set("h13.Main")
+    mainClass.set("h13.TwoSimpleWindows")
 }
 
 java {

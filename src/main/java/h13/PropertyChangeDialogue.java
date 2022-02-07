@@ -65,13 +65,13 @@ public class PropertyChangeDialogue extends JDialog {
             int current,
             IntConsumer updateValue) {
         // Frame Properties
-        // TODO: H2.2
+        // TODO: H2.3
         // Add Listeners
-        // TODO: H2.2
+        // TODO: H2.3
         // Set Dimension and Position
-        // TODO: H2.2
+        // TODO: H2.3
         // Show Frame
-        // TODO: H2.2
+        // TODO: H2.3
     }
 
     /**
@@ -91,12 +91,12 @@ public class PropertyChangeDialogue extends JDialog {
             String[] options,
             Consumer<String> updateValue) {
         // Frame Properties
-        // TODO: H2.2
+        // TODO: H2.3
         // Add Listeners
-        // TODO: H2.2
+        // TODO: H2.3
         // Set Dimension and Position
-        // TODO: H2.2
+        // TODO: H2.3
         // Show Frame
-        // TODO: H2.2
+        // TODO: H2.3
     }
 }

@@ -182,12 +182,12 @@ public class MyPanel extends javax.swing.JPanel {
     }
 
     /**
-     * Setter-Method for the {@link #zoom}-Field.
+     * Setter-Method for the {@link #text}-Field.
      * <br>
      * </br>
      * Only Strings with at least one and at most 30 characters are permitted.
      *
-     * @param zoom the new Value of the {@link #zoom}-Field
+     * @param text the new Value of the {@link #text}-Field
      */
     public void setText(String text) throws IllegalArgumentException {
         // TODO: H1.1
@@ -229,7 +229,7 @@ public class MyPanel extends javax.swing.JPanel {
      * Setter-Method for the {@link #borderWidth}-Field.
      * <br>
      * </br>
-     * Only values in [1,100] are permitted.
+     * Only values in [1,20] are permitted.
      *
      * @param font the new Value of the {@link #borderWidth}-Field
      */
@@ -371,8 +371,7 @@ public class MyPanel extends javax.swing.JPanel {
 
     /**
      * Fills a Given Shape and also draws a border with the given Colors and Scale
-     * to the
-     * Center of the Screen.
+     * to the Center of the Screen.
      *
      * @param g2d           the specified Graphics context
      * @param interiorColor the Color of the filled Area
@@ -386,8 +385,8 @@ public class MyPanel extends javax.swing.JPanel {
      */
     @SuppressWarnings("unused") // Kann entfernt werden, sobald die Methode verwendet wird
     private void fillDrawCentered(Graphics2D g2d, Color interiorColor, Color borderColor, int borderWidth,
-            RectangularShape s, double scaleX, double ScaleY) {
-        centerShape(s, scaleX, ScaleY, borderWidth);
+            RectangularShape s, double scaleX, double scaleY) {
+        centerShape(s, scaleX, scaleY, borderWidth);
         fillDraw(g2d, interiorColor, borderColor, borderWidth, s);
     }
 

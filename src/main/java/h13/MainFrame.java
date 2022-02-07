@@ -25,9 +25,9 @@ public class MainFrame extends JFrame {
     }
 
     /**
-     * Getter-Method for the {@link #zoom}-Field
+     * Getter-Method for the {@link #panel}-Field
      *
-     * @return the value of the {@link #zoom}-Field
+     * @return the value of the {@link #panel}-Field
      */
     public MyPanel getPanel() {
         return panel;

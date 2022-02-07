@@ -231,7 +231,7 @@ public class MyPanel extends javax.swing.JPanel {
      * </br>
      * Only values in [1,20] are permitted.
      *
-     * @param font the new Value of the {@link #borderWidth}-Field
+     * @param borderWidth the new Value of the {@link #borderWidth}-Field
      */
     public void setBorderWidth(int borderWidth) {
         // TODO: H1.1

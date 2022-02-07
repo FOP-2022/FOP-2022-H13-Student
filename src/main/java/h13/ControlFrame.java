@@ -91,7 +91,7 @@ public class ControlFrame extends JFrame {
     /**
      * Creates a new {@link ControlFrame}-Instance
      *
-     * @param mf
+     * @param mf The Main Drawing Frame
      */
     public ControlFrame(MainFrame mf) {
         super("Steuerungsfenster");

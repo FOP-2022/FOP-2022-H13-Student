@@ -12,9 +12,9 @@ public class TwoSimpleWindows {
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 MainFrame zeichenfenster = new MainFrame(new MyPanel());
-                // ControlFrame steuerungsfenster = new ControlFrame(zeichenfenster);
+                ControlFrame steuerungsfenster = new ControlFrame(zeichenfenster);
                 zeichenfenster.init();
-                // steuerungsfenster.init();
+                steuerungsfenster.init();
             }
         });
     }

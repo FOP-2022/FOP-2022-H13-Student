@@ -35,7 +35,7 @@ public class ControlFrame extends JFrame {
      * A button that calls {@link MyPanel#removeGreenEllipse()} when clicked
      */
     @SuppressWarnings("unused")
-    private JButton removeElipseButton = new JButton("Remove ellipse");
+    private JButton removeEllipseButton = new JButton("Remove ellipse");
     /**
      * A button that calls {@link MyPanel#removeYellowRectangle()} when clicked
      */

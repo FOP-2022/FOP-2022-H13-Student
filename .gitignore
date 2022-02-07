@@ -6,6 +6,11 @@
 .idea_modules/
 atlassian-ide-plugin.xml
 
+### VS-Code ###
+.vscode/*
+!.vscode/extensions.json
+.VSCodeCounter/
+
 ### Eclipse ###
 .metadata
 bin/

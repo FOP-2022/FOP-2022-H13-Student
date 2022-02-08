@@ -48,10 +48,10 @@ public class ControlFrame extends JFrame {
     private JButton removeStringButton = new JButton("Remove string");
     /**
      * A button that opens a {@link PropertyChangeDialogue} that controls the
-     * transparency via {@link MyPanel#setTransparency(float)} when clicked
+     * transparency via {@link MyPanel#setAlpha(float)} when clicked
      */
     @SuppressWarnings("unused")
-    private JButton changeTransparencyButton = new JButton("Change transparency");
+    private JButton changeAlphaButton = new JButton("Change alpha");
     /**
      * A button that opens a {@link PropertyChangeDialogue} that controls the
      * saturation via {@link MyPanel#setSaturation(float)} when clicked

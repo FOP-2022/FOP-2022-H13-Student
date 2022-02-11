@@ -111,7 +111,7 @@ public class MyPanel extends javax.swing.JPanel {
      *
      * @return the value of the {@link #alpha}-Field
      */
-    public double getAlpha() {
+    public float getAlpha() {
         return this.alpha;
     }
 
@@ -133,7 +133,7 @@ public class MyPanel extends javax.swing.JPanel {
      *
      * @return the value of the {@link #saturation}-Field
      */
-    public double getSaturation() {
+    public float getSaturation() {
         return this.saturation;
     }
 
@@ -418,7 +418,7 @@ public class MyPanel extends javax.swing.JPanel {
      * @param width         the desired text width
      */
     @SuppressWarnings("unused") // Kann entfernt werden, sobald die Methode verwendet wird
-    private void drawColoredString(Graphics2D g2d, Color interiorColor, Color borderColor, float borderWidth,
+    private void drawColoredString(Graphics2D g2d, Color interiorColor, Color borderColor, int borderWidth,
             String text, Font f, double width) {
         // TODO: H1.3
         throw new UnsupportedOperationException("Method not Implemented.");
